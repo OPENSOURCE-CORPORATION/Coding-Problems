@@ -11,6 +11,8 @@ def Max_Min_1(Array):  # Time : O(n)   , Space = O(1)
     return Max, Min
 
 
+
+
 # def Max_Min_2(Array):
 
 
