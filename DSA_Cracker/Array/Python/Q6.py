@@ -16,7 +16,8 @@ def Solution_1(Array_1, Array_2):  # Time: O(m*n), Space: O(0)
     return Union, Intersection
 
 
-# Time : O((m(log(m) + n(log(n)) + (m + n)) , Space : O(1)
+
+# Time : O((m(log(m) + n(log(n)) + (m + n)) ,Space : O(1)
 def Solution_2(Array_1, Array_2):
     Array_1.sort()
     Array_2.sort()
@@ -39,11 +40,12 @@ def Solution_2(Array_1, Array_2):
             Intersection.append(Array_1[i])
             i += 1
             j += 1
-    # temp = len(Array_1) - 3
+    # temp = len(Array_1) - 3                                   # This is wrong do not do like at and repeat the mistake i did
     # for i in range(len(Array_2) - len(Array_1) + 3):
     #     Union.append(Array_2[temp])
     #     # print(Array_2[temp])
     #     temp += 1
+    
     while(j < len(Array_2)):
         Union.append(Array_2[j])
         j += 1
