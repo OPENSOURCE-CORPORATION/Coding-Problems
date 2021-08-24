@@ -15,7 +15,7 @@ def Rotate(Array):  # Time : O(n) , Space : O(1)
     return Array
 
 
-def Rotate_2(Array):  # time : O(n) , Space : O(1)
+def Rotate_2(Array):  # Time : O(n) , Space : O(1)
     length = len(Array)
     i = 0
     j = 1
